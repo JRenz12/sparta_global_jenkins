@@ -1,16 +1,4 @@
-#!/bin/bash
-
-sudo apt-get update -y
-sudo apt-get install nginx -y
-sudo apt-get upgrade -y
-
-sudo apt-get install python-software-properties
-curl -sL http://deb.nodesource.com/setup_6.x | sudo -E bash -
-
-sudo apt-get install nodejs -y
-
-sudo npm install pm2 -g
-
+# get the gpg key
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv EA312927
 
 # update the sources list
